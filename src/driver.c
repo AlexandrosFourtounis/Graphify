@@ -5,9 +5,18 @@
 */
 
 #include <stdio.h>
+#include "graphify.h"
+
+void handleInput(input);
 
 int main(int argc, char *argv[]) {
- 
 
-    printf("giugcoutcoui"); 
+    char input;
+
+    printf("Enter an equation: \n");
+    scanf(" %c", &input);
+    handleInput(input);
+
+    
 }
+ 
