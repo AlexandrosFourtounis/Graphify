@@ -1,2 +1,2 @@
 # Graphify
-A dataset visualization library
+A graph visualization library
